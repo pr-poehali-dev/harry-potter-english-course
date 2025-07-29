@@ -42,9 +42,7 @@ const Index = () => {
           >
             <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="text-center leading-tight">
               <Icon name="BookOpen" size={20} className="mr-2 flex-shrink-0" />
-              <span className="inline">
-                Посмотреть пример<br className="sm:hidden" /> чудесного урока<br className="sm:hidden" /> и искусство<br className="sm:hidden" /> темной учебной<br className="sm:hidden" /> программы
-              </span>
+              <span className="inline">Посмотреть искусство темной учебной программы</span>
             </a>
           </Button>
         </div>
