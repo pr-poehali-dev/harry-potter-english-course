@@ -88,10 +88,7 @@ const Index = () => {
           </p>
 
           <div className="text-center max-w-2xl mx-auto">
-            <p className="text-magical-parchment/80 text-lg font-crimson">
-              Гарантия возврата денег в течение 14 дней. 
-              Начните своё магическое путешествие уже сегодня!
-            </p>
+            <p className="text-magical-parchment/80 text-lg font-crimson">30 уроков (1 месяц занятий)  - 525 рублей (17.5 рублей за урок)</p>
           </div>
         </div>
       </section>
