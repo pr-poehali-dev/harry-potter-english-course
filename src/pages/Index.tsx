@@ -21,30 +21,28 @@ const Index = () => {
             <Icon name="Sparkles" size={48} className="text-magical-gold mx-auto mb-4 animate-float" />
           </div>
           
-          <h1 className="font-cinzel md:text-7xl font-bold text-magical-gold mb-6 leading-tight px-4 text-4xl">
-            Изучаем<br className="sm:hidden" /> английский,
+          <h1 className="font-cinzel text-5xl md:text-7xl font-bold text-magical-gold mb-6 leading-tight">
+            Изучаем английский,
             <br />
-            читая<br className="sm:hidden" /> Гарри<br className="sm:hidden" /> Поттера
+            читая Гарри Поттера
           </h1>
           
-          <p className="text-xl md:text-2xl text-magical-parchment mb-4 font-crimson px-4">
-            Годовой курс<br className="sm:hidden" /> английского языка<br className="sm:hidden" /> для начинающих
+          <p className="text-xl md:text-2xl text-magical-parchment mb-4 font-crimson">
+            Годовой курс английского языка
           </p>
           
-          <p className="text-lg text-magical-parchment/90 mb-8 max-w-2xl mx-auto leading-relaxed px-4">
-            Книжный клуб<br className="sm:hidden" /> + общение<br className="sm:hidden" /> по интересам<br className="sm:hidden" /> + погружение<br className="sm:hidden" /> в магический мир
+          <p className="text-lg text-magical-parchment/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+            Книжный клуб + общение по интересам + погружение в магический мир
           </p>
           
           <Button 
             size="lg" 
-            className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-base sm:text-lg px-3 sm:px-6 py-4 sm:py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl mx-2 w-full max-w-sm sm:max-w-none"
+            className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-lg px-8 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
             asChild
           >
-            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="text-center leading-snug block">
-              <Icon name="BookOpen" size={18} className="mb-1 mx-auto block sm:inline sm:mr-2" />
-              <span className="block sm:inline">
-                Посмотреть пример чудесного урока
-              </span>
+            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer">
+              <Icon name="BookOpen" size={20} className="mr-2" />
+              Посмотреть пример чудесного урока
             </a>
           </Button>
         </div>
