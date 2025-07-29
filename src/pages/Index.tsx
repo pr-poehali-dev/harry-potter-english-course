@@ -36,7 +36,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-lg px-8 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
-          >Посмотреть пример чудесного урока</Button>
+          >Посмотреть пример чудесного урока и искусство темной учебной программы</Button>
         </div>
         
         {/* Floating magical elements */}
@@ -163,12 +163,8 @@ const Index = () => {
       <section className="py-20 px-6 relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
-              Программа курса
-            </h2>
-            <p className="text-xl text-magical-parchment max-w-3xl mx-auto font-crimson">
-              Изучение английского через захватывающий мир Хогвартса
-            </p>
+            <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">Орден закрытого телеграм-канала</h2>
+            <p className="text-xl text-magical-parchment max-w-3xl mx-auto font-crimson">удобно, если вы не хотите регистрироваться в сторонних приложениях</p>
           </div>
           
           <div className="text-center max-w-3xl mx-auto">
