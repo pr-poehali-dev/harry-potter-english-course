@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
+import MagicalStars from '@/components/MagicalStars';
 
 const Index = () => {
   return (
@@ -61,27 +62,7 @@ const Index = () => {
 
       {/* Club Benefits Section */}
       <section className="py-20 px-6 bg-magical-forest/20 relative overflow-hidden">
-        {/* Magical background with floating stars */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-10 left-10 text-magical-gold animate-float opacity-30" style={{animationDelay: '0s'}}>
-            <Icon name="Star" size={16} />
-          </div>
-          <div className="absolute top-32 right-16 text-magical-gold animate-float opacity-40" style={{animationDelay: '2s'}}>
-            <Icon name="Sparkles" size={12} />
-          </div>
-          <div className="absolute bottom-40 left-20 text-magical-gold animate-float opacity-35" style={{animationDelay: '4s'}}>
-            <Icon name="Zap" size={14} />
-          </div>
-          <div className="absolute top-48 left-1/3 text-magical-gold animate-float opacity-25" style={{animationDelay: '1s'}}>
-            <Icon name="Star" size={18} />
-          </div>
-          <div className="absolute bottom-20 right-1/4 text-magical-gold animate-float opacity-30" style={{animationDelay: '3s'}}>
-            <Icon name="Sparkles" size={20} />
-          </div>
-          <div className="absolute top-20 right-1/3 text-magical-gold animate-float opacity-40" style={{animationDelay: '5s'}}>
-            <Icon name="Star" size={14} />
-          </div>
-        </div>
+        <MagicalStars count={35} />
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="mb-8">
@@ -190,24 +171,7 @@ const Index = () => {
 
       {/* Program Section */}
       <section className="py-20 px-6 relative overflow-hidden bg-gradient-to-b from-magical-midnight/30 to-magical-forest/30">
-        {/* Magical background with floating stars */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-16 left-12 text-magical-gold animate-float opacity-35" style={{animationDelay: '1s'}}>
-            <Icon name="Star" size={20} />
-          </div>
-          <div className="absolute top-40 right-20 text-magical-gold animate-float opacity-25" style={{animationDelay: '3s'}}>
-            <Icon name="Sparkles" size={16} />
-          </div>
-          <div className="absolute bottom-32 left-16 text-magical-gold animate-float opacity-40" style={{animationDelay: '0s'}}>
-            <Icon name="Zap" size={18} />
-          </div>
-          <div className="absolute top-24 left-2/3 text-magical-gold animate-float opacity-30" style={{animationDelay: '4s'}}>
-            <Icon name="Star" size={16} />
-          </div>
-          <div className="absolute bottom-16 right-1/3 text-magical-gold animate-float opacity-35" style={{animationDelay: '2s'}}>
-            <Icon name="Sparkles" size={22} />
-          </div>
-        </div>
+        <MagicalStars count={30} />
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">Орден закрытого телеграм-канала</h2>
@@ -225,27 +189,7 @@ const Index = () => {
 
       {/* Pricing Section */}
       <section className="py-20 px-6 bg-gradient-to-b from-magical-forest to-magical-midnight relative overflow-hidden">
-        {/* Magical background with floating stars */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-20 left-8 text-magical-gold animate-float opacity-40" style={{animationDelay: '2s'}}>
-            <Icon name="Star" size={24} />
-          </div>
-          <div className="absolute top-60 right-12 text-magical-gold animate-float opacity-30" style={{animationDelay: '0s'}}>
-            <Icon name="Sparkles" size={18} />
-          </div>
-          <div className="absolute bottom-24 left-1/4 text-magical-gold animate-float opacity-35" style={{animationDelay: '4s'}}>
-            <Icon name="Zap" size={20} />
-          </div>
-          <div className="absolute top-32 right-1/3 text-magical-gold animate-float opacity-25" style={{animationDelay: '1s'}}>
-            <Icon name="Star" size={16} />
-          </div>
-          <div className="absolute bottom-40 right-16 text-magical-gold animate-float opacity-40" style={{animationDelay: '3s'}}>
-            <Icon name="Sparkles" size={14} />
-          </div>
-          <div className="absolute top-40 left-1/3 text-magical-gold animate-float opacity-30" style={{animationDelay: '5s'}}>
-            <Icon name="Star" size={22} />
-          </div>
-        </div>
+        <MagicalStars count={40} />
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
             Стоимость обучения
@@ -260,24 +204,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="bg-magical-midnight py-12 px-6 border-t border-magical-gold/30 relative overflow-hidden">
-        {/* Magical background with floating stars */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-8 left-16 text-magical-gold animate-float opacity-35" style={{animationDelay: '1s'}}>
-            <Icon name="Star" size={18} />
-          </div>
-          <div className="absolute top-20 right-20 text-magical-gold animate-float opacity-25" style={{animationDelay: '3s'}}>
-            <Icon name="Sparkles" size={16} />
-          </div>
-          <div className="absolute bottom-8 left-1/4 text-magical-gold animate-float opacity-40" style={{animationDelay: '2s'}}>
-            <Icon name="Zap" size={14} />
-          </div>
-          <div className="absolute top-12 right-1/3 text-magical-gold animate-float opacity-30" style={{animationDelay: '0s'}}>
-            <Icon name="Star" size={20} />
-          </div>
-          <div className="absolute bottom-12 right-12 text-magical-gold animate-float opacity-35" style={{animationDelay: '4s'}}>
-            <Icon name="Sparkles" size={12} />
-          </div>
-        </div>
+        <MagicalStars count={25} />
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="font-cinzel text-2xl text-magical-gold mb-4">Трансфигурация языковых навыков ждёт вас</h3>
           <p className="text-magical-parchment/80 mb-8 font-crimson">Присоединяйтесь к чуду познания  и общения</p>
