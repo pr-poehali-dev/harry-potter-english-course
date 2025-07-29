@@ -55,6 +55,13 @@ const Index = () => {
       <section className="py-20 px-6 bg-magical-forest/20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
+            <div className="mb-8">
+              <img 
+                src="https://cdn.poehali.dev/files/d42d2632-e461-40c1-b2a1-7518f05990fd.jpg" 
+                alt="Снейп и Волдеморт делают сердечко руками" 
+                className="w-64 h-64 object-cover rounded-full mx-auto border-4 border-magical-gold/50 shadow-2xl"
+              />
+            </div>
             <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
               Английский клуб поттероманов это:
             </h2>
