@@ -36,16 +36,20 @@ const Index = () => {
             Книжный клуб + общение по интересам + погружение в магический мир
           </p>
           
-          <Button 
-            size="lg" 
-            className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-lg px-8 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
-            asChild
-          >
-            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer">
-              <Icon name="BookOpen" size={20} className="mr-2" />
-              Посмотреть пример чудесного урока
-            </a>
-          </Button>
+          <div className="px-6 w-full max-w-md mx-auto">
+            <Button 
+              size="lg" 
+              className="w-full bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-xl px-6 py-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
+              asChild
+            >
+              <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2">
+                <Icon name="BookOpen" size={24} />
+                <span className="text-center leading-tight">
+                  Посмотреть пример<br />чудесного урока
+                </span>
+              </a>
+            </Button>
+          </div>
         </div>
         
         {/* Floating magical elements */}
