@@ -38,10 +38,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-lg px-8 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
-          >
-            <Icon name="BookOpen" size={20} className="mr-2" />
-            Начать магическое обучение
-          </Button>
+          >Посмотреть пример чудесного урока</Button>
         </div>
         
         {/* Floating magical elements */}
@@ -83,9 +80,7 @@ const Index = () => {
           <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
             Стоимость обучения
           </h2>
-          <p className="text-xl text-magical-parchment mb-12 font-crimson">
-            Инвестиция в ваше магическое будущее
-          </p>
+          <p className="text-xl text-magical-parchment mb-12 font-crimson">Инвестиция в ваше волшебное будущее</p>
 
           <div className="text-center max-w-2xl mx-auto">
             <p className="text-magical-parchment/80 text-lg font-crimson">30 уроков (1 месяц занятий)  - 525 рублей (17.5 рублей за урок)</p>
@@ -99,9 +94,7 @@ const Index = () => {
           <h3 className="font-cinzel text-2xl text-magical-gold mb-4">
             Магическое обучение ждёт вас
           </h3>
-          <p className="text-magical-parchment/80 mb-8 font-crimson">
-            Присоединяйтесь к тысячам студентов, которые уже открыли для себя мир английского языка
-          </p>
+          <p className="text-magical-parchment/80 mb-8 font-crimson">Присоединяйтесь к чуду познания  и общения</p>
           <div className="flex justify-center gap-6 text-magical-gold">
             <Icon name="Mail" size={24} className="hover:text-magical-bronze cursor-pointer transition-colors" />
             <Icon name="MessageCircle" size={24} className="hover:text-magical-bronze cursor-pointer transition-colors" />
