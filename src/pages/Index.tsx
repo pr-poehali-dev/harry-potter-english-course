@@ -21,7 +21,7 @@ const Index = () => {
             <Icon name="Sparkles" size={48} className="text-magical-gold mx-auto mb-4 animate-float" />
           </div>
           
-          <h1 className="font-cinzel text-5xl md:text-7xl font-bold text-magical-gold mb-6 leading-tight px-4">
+          <h1 className="font-cinzel md:text-7xl font-bold text-magical-gold mb-6 leading-tight px-4 text-4xl">
             Изучаем<br className="sm:hidden" /> английский,
             <br />
             читая<br className="sm:hidden" /> Гарри<br className="sm:hidden" /> Поттера
