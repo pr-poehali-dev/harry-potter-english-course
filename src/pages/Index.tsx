@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-magical-midnight to-magical-forest">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <main className="relative min-h-screen flex items-center justify-center overflow-hidden" role="main">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
@@ -23,16 +23,15 @@ const Index = () => {
           </div>
           
           <h1 className="font-cinzel text-5xl md:text-7xl font-bold text-magical-gold mb-6 leading-tight">
-            Изучаем английский,
+            Изучаем английский язык,
             <br />
             читая Гарри Поттера
           </h1>
           
-          <p className="text-xl md:text-2xl text-magical-parchment mb-4 font-crimson">Годовой курс английского языка
-для начинающих</p>
+          <p className="text-xl md:text-2xl text-magical-parchment mb-4 font-crimson">Годовой курс английского языка для начинающих с нуля</p>
           
           <p className="text-lg text-magical-parchment/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Книжный клуб + общение по интересам + погружение в магический мир
+            Книжный клуб + общение по интересам + погружение в магический мир английского языка через любимые книги о Гарри Поттере
           </p>
           
           <div className="px-6 w-full max-w-md mx-auto">
@@ -41,7 +40,7 @@ const Index = () => {
               className="w-full bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-xl px-6 py-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
               asChild
             >
-              <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+              <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center" aria-label="Посмотреть пример чудесного урока в Telegram">
                 <span className="text-center leading-tight">
                   Посмотреть пример<br />чудесного урока
                 </span>
@@ -60,10 +59,10 @@ const Index = () => {
         <div className="absolute bottom-32 left-16 text-magical-gold animate-float opacity-50" style={{animationDelay: '2s'}}>
           <Icon name="Zap" size={28} />
         </div>
-      </section>
+      </main>
 
       {/* Club Benefits Section */}
-      <section className="py-20 px-6 bg-magical-forest/20 relative overflow-hidden">
+      <section className="py-20 px-6 bg-magical-forest/20 relative overflow-hidden" aria-labelledby="benefits-heading">
         <MagicalStars count={35} />
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -74,8 +73,8 @@ const Index = () => {
                 className="w-full max-w-sm aspect-square object-cover rounded-lg mx-auto border-4 border-magical-gold/50 shadow-2xl"
               />
             </div>
-            <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
-              Английский клуб поттероманов это:
+            <h2 id="benefits-heading" className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
+              Английский клуб поттероманов — это:
             </h2>
           </div>
           
@@ -84,42 +83,42 @@ const Index = () => {
               <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
                 <Icon name="BookOpen" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
                 <p className="text-magical-parchment/90 font-crimson">
-                  понимание грамматики до уровня В2
+                  понимание грамматики английского языка до уровня В2
                 </p>
               </div>
               
               <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
                 <Icon name="Brain" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
                 <p className="text-magical-parchment/90 font-crimson">
-                  систематизация знаний
+                  систематизация знаний английского языка
                 </p>
               </div>
               
               <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
                 <Icon name="MessageSquare" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
                 <p className="text-magical-parchment/90 font-crimson">
-                  365 готовых шаблонов для того, чтобы начать говорить
+                  365 готовых шаблонов для того, чтобы начать говорить на английском языке
                 </p>
               </div>
               
               <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
                 <Icon name="Library" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
                 <p className="text-magical-parchment/90 font-crimson">
-                  2555 выученных слов
+                  2555 английских слов из Гарри Поттера для активного словарного запаса
                 </p>
               </div>
               
               <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
                 <Icon name="Book" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
                 <p className="text-magical-parchment/90 font-crimson">
-                  ваша первая прочитанная книга на английском (без словаря и других заминок)
+                  ваша первая прочитанная книга на английском языке — Гарри Поттер (без словаря и других заминок)
                 </p>
               </div>
               
               <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
                 <Icon name="Shield" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
                 <p className="text-magical-parchment/90 font-crimson">
-                  преодоление языкового барьера
+                  преодоление языкового барьера в английском через обсуждение любимых персонажей
                 </p>
               </div>
             </div>
@@ -172,40 +171,40 @@ const Index = () => {
       </section>
 
       {/* Program Section */}
-      <section className="py-20 px-6 relative overflow-hidden bg-gradient-to-b from-magical-midnight/30 to-magical-forest/30">
+      <section className="py-20 px-6 relative overflow-hidden bg-gradient-to-b from-magical-midnight/30 to-magical-forest/30" aria-labelledby="program-heading">
         <MagicalStars count={30} />
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">Орден закрытого телеграм-канала</h2>
-            <p className="text-xl text-magical-parchment max-w-3xl mx-auto font-crimson">удобно, если вы не хотите регистрироваться в сторонних приложениях</p>
+            <h2 id="program-heading" className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">Орден закрытого телеграм-канала</h2>
+            <p className="text-xl text-magical-parchment max-w-3xl mx-auto font-crimson">удобное изучение английского в Telegram — не нужно регистрироваться в сторонних приложениях</p>
           </div>
           
           <div className="text-center max-w-3xl mx-auto">
             <p className="text-magical-parchment/90 text-lg font-crimson leading-relaxed">
-              Каждый урок — это не просто изучение языка, а погружение в волшебный мир, 
-              где английский становится ключом к пониманию магии слова.
+              Каждый урок английского языка — это не просто изучение грамматики, а погружение в волшебный мир Гарри Поттера, 
+              где английский становится ключом к пониманию магии слова и британской культуры.
             </p>
           </div>
         </div>
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 px-6 bg-gradient-to-b from-magical-forest to-magical-midnight relative overflow-hidden">
+      <section className="py-20 px-6 bg-gradient-to-b from-magical-forest to-magical-midnight relative overflow-hidden" aria-labelledby="pricing-heading">
         <MagicalStars count={40} />
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
-            Стоимость обучения
+          <h2 id="pricing-heading" className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
+            Стоимость обучения в английском клубе
           </h2>
           <p className="text-xl text-magical-parchment mb-12 font-crimson">Инвестиция в ваше волшебное будущее</p>
 
           <div className="text-center max-w-2xl mx-auto">
-            <p className="text-magical-parchment/80 text-lg font-crimson">30 уроков (1 месяц занятий)  - 525 рублей (17.5 рублей за урок)</p>
+            <p className="text-magical-parchment/80 text-lg font-crimson">30 уроков английского языка (1 месяц занятий) — 525 рублей (17,5 рублей за урок английского)</p>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-magical-midnight py-12 px-6 border-t border-magical-gold/30 relative overflow-hidden">
+      <footer className="bg-magical-midnight py-12 px-6 border-t border-magical-gold/30 relative overflow-hidden" role="contentinfo">
         <MagicalStars count={25} />
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="font-cinzel text-2xl text-magical-gold mb-4">Трансфигурация языковых навыков ждёт вас</h3>
