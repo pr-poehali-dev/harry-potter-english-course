@@ -37,12 +37,14 @@ const Index = () => {
           
           <Button 
             size="lg" 
-            className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-lg px-8 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl mx-4"
+            className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-base sm:text-lg px-3 sm:px-6 py-4 sm:py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl mx-2 w-full max-w-sm sm:max-w-none"
             asChild
           >
-            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="text-center leading-tight">
-              <Icon name="BookOpen" size={20} className="mr-2 flex-shrink-0" />
-              <span className="inline">Посмотреть искусство темной учебной программы</span>
+            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="text-center leading-snug block">
+              <Icon name="BookOpen" size={18} className="mb-1 mx-auto block sm:inline sm:mr-2" />
+              <span className="block sm:inline">
+                Посмотреть пример чудесного урока
+              </span>
             </a>
           </Button>
         </div>
