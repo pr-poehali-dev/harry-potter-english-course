@@ -36,7 +36,13 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-lg px-8 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
-          >Посмотреть пример чудесного урока и искусство темной учебной программы</Button>
+            asChild
+          >
+            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer">
+              <Icon name="BookOpen" size={20} className="mr-2" />
+              Посмотреть пример чудесного урока и искусство темной учебной программы
+            </a>
+          </Button>
         </div>
         
         {/* Floating magical elements */}
