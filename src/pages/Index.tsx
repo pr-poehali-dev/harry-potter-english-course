@@ -193,9 +193,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-magical-midnight py-12 px-6 border-t border-magical-gold/30">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="font-cinzel text-2xl text-magical-gold mb-4">
-            Магическое обучение ждёт вас
-          </h3>
+          <h3 className="font-cinzel text-2xl text-magical-gold mb-4">Трансфигурация языковых навыков ждёт вас</h3>
           <p className="text-magical-parchment/80 mb-8 font-crimson">Присоединяйтесь к чуду познания  и общения</p>
           <div className="flex justify-center gap-6 text-magical-gold">
             <Icon name="Mail" size={24} className="hover:text-magical-bronze cursor-pointer transition-colors" />
