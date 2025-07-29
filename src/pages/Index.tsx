@@ -8,7 +8,12 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-magical-midnight to-magical-forest">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-30"
+          style={{
+            backgroundImage: "url('/img/f26baeac-cefc-4571-82be-dc48eec7b69d.jpg')"
+          }}
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-magical-midnight/50 to-magical-midnight" />
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6 animate-fade-in">
