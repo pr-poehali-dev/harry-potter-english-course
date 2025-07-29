@@ -42,8 +42,7 @@ const Index = () => {
               className="w-full bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-xl px-6 py-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
               asChild
             >
-              <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2">
-                <Icon name="BookOpen" size={24} />
+              <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                 <span className="text-center leading-tight">
                   Посмотреть пример<br />чудесного урока
                 </span>
