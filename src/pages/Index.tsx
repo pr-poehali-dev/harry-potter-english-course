@@ -27,9 +27,7 @@ const Index = () => {
             читая Гарри Поттера
           </h1>
           
-          <p className="text-xl md:text-2xl text-magical-parchment mb-4 font-crimson">
-            Годовой курс английского языка
-          </p>
+          <p className="text-xl md:text-2xl text-magical-parchment mb-4 font-crimson">Годовой курс английского языка для начинающих </p>
           
           <p className="text-lg text-magical-parchment/90 mb-8 max-w-2xl mx-auto leading-relaxed">
             Книжный клуб + общение по интересам + погружение в магический мир
