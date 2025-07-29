@@ -21,26 +21,28 @@ const Index = () => {
             <Icon name="Sparkles" size={48} className="text-magical-gold mx-auto mb-4 animate-float" />
           </div>
           
-          <h1 className="font-cinzel text-5xl md:text-7xl font-bold text-magical-gold mb-6 leading-tight">
+          <h1 className="font-cinzel text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-magical-gold mb-6 leading-tight px-4">
             Изучаем английский,
             <br />
             читая Гарри Поттера
           </h1>
           
-          <p className="text-xl md:text-2xl text-magical-parchment mb-4 font-crimson">Годовой курс английского языка для начинающих </p>
+          <p className="text-lg sm:text-xl md:text-2xl text-magical-parchment mb-4 font-crimson px-4">Годовой курс английского языка для начинающих</p>
           
-          <p className="text-lg text-magical-parchment/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg text-magical-parchment/90 mb-8 max-w-2xl mx-auto leading-relaxed px-4">
             Книжный клуб + общение по интересам + погружение в магический мир
           </p>
           
           <Button 
             size="lg" 
-            className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-lg px-8 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
+            className="bg-magical-gold hover:bg-magical-bronze text-magical-midnight font-bold text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl mx-4"
             asChild
           >
-            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer">
-              <Icon name="BookOpen" size={20} className="mr-2" />
-              Посмотреть пример чудесного урока и искусство темной учебной программы
+            <a href="https://t.me/dobesee" target="_blank" rel="noopener noreferrer" className="text-center leading-tight">
+              <Icon name="BookOpen" size={18} className="mr-1 sm:mr-2 flex-shrink-0" />
+              <span className="break-words">
+                Посмотреть пример чудесного урока и искусство темной учебной программы
+              </span>
             </a>
           </Button>
         </div>
