@@ -51,6 +51,107 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Club Benefits Section */}
+      <section className="py-20 px-6 bg-magical-forest/20">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-cinzel text-4xl md:text-5xl font-bold text-magical-gold mb-6">
+              Английский клуб поттероманов это:
+            </h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="space-y-4">
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="BookOpen" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  понимание грамматики до уровня В2
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="Brain" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  систематизация знаний
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="MessageSquare" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  365 готовых шаблонов для того, чтобы начать говорить
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="Library" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  2555 выученных слов
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="Book" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  ваша первая прочитанная книга на английском (без словаря и других заминок)
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="Shield" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  преодоление языкового барьера
+                </p>
+              </div>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="Users" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  подходит как детям с 8 лет, так и взрослым, начинающим с нуля (либо с неразберихой в голове после 10 лет изучения английского)
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="Heart" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  обсуждение темы, которая вам действительно интересна, а не скучных тем из воркбуков
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="UserCheck" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  сопровождение куратором, который поправит и объяснит ошибки
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="PenTool" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  интересные творческие задания в виде эссе (от очень простых до серьезных по мере развития навыков)
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="UserPlus" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  новые знакомства и общение с людьми с общими интересами (как минимум два - Гарри Поттер и английский). Если вы не ищете общения - можно присутствовать в чате просто в режиме чтения для изучения дополнительной информации
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 bg-magical-midnight/40 p-4 rounded-lg border border-magical-gold/20">
+                <Icon name="DollarSign" size={20} className="text-magical-gold mt-1 flex-shrink-0" />
+                <p className="text-magical-parchment/90 font-crimson">
+                  год занятий по цене 4 уроков с репетитором, с гарантией четкого результата на выходе (не все репетиторы ее дают)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Program Section */}
       <section className="py-20 px-6 relative">
         <div className="max-w-6xl mx-auto">
